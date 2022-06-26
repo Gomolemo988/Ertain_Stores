@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Ertain Stores - Contact Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" />
+    <link href="css/all.min.css" rel="stylesheet" />
+	<link href="css/main.css" rel="stylesheet" />
+</head>
+
+<body> 
+
+	<div class="container">
+	<!-- Top box -->
+		<!-- Logo & Site Name -->
+		<div class="placeholder">
+			<div class="parallax-window" data-parallax="scroll" image-src="images/marco-chilese-Gprl8lDVR9c-unsplash.jpg">
+				<div class="tm-header">
+					<div class="row tm-header-inner">
+						<div class="col-md-6 col-12">
+							<!--<img src="images/Hnet.com-image.png" alt="Logo" class="tm-site-logo" />--> 
+							<div class="tm-site-text-box">
+								<h1 class="tm-site-title">Ertain Stores</h1>
+								<!--<h6 class="tm-site-description">Chef Tebogo Sethole</h6>	s-->
+							</div>
+						</div>
+						<nav class="col-md-6 col-12 tm-nav">
+							<ul class="tm-nav-ul">
+								<li class="tm-nav-li"><a href="index.html" class="tm-nav-link">Home</a></li>
+								<li class="tm-nav-li"><a href="about.html" class="tm-nav-link">About</a></li>
+								<li class="tm-nav-li"><a href="contact.html" class="tm-nav-link active">Contact</a></li>
+							</ul>
+						</nav>	
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<main>
+			<header class="row tm-welcome-section">
+				<h2 class="col-12 text-center tm-section-title">Contact </h2>
+				<p class="col-12 text-center">Let's connect</p>	
+				<div class="tm-address-box">
+					<h4 class="tm-info-title tm-text-success">Contact Details:</h4>
+				<!--<address>
+						Pretoria West, Danville ext 5, 0183
+					</address>	-->
+					<a href="tel:080-090-0110" class="tm-contact-link">
+						<i class="fas fa-phone tm-contact-icon"></i>071 976 2009
+					</a>
+					<a href="mailto:info@company.co" class="tm-contact-link">
+						<i class="fas fa-envelope tm-contact-icon"></i>netshifec@gmail.com
+					</a>
+					<a href="mailto:info@company.co" class="tm-contact-link">
+						<i class="fas fa-envelope tm-contact-icon"></i>cnetshifefe@yahoo.com
+					</a>
+					<div class="tm-contact-social">
+					
+						<a href="#" class="tm-social-link"><i class="fab fa-twitter tm-social-icon"></i></a>
+						<a href="#" class="tm-social-link"><i class="fab fa-instagram tm-social-icon"></i></a>
+					</div>
+				</div>
+			</header>
+
+			
+						</div>
+					</div>
+				</div>
+			</div>
+            
+
+			
+		</main>
+
+		<footer class="tm-footer text-center">
+			<p>Copyright &copy; 2022
+            
+            |  <a rel="nofollow" href="#">Ertain Stores</a></p>
+		</footer>
+	</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/parallax.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			var acc = document.getElementsByClassName("accordion");
+			var i;
+			
+			for (i = 0; i < acc.length; i++) {
+			  acc[i].addEventListener("click", function() {
+			    this.classList.toggle("active");
+			    var panel = this.nextElementSibling;
+			    if (panel.style.maxHeight) {
+			      panel.style.maxHeight = null;
+			    } else {
+			      panel.style.maxHeight = panel.scrollHeight + "px";
+			    }
+			  });
+			}	
+		});
+	</script>
+</body>
+</html>
